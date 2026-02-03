@@ -1,0 +1,8 @@
+---
+const { pathname } = Astro.url;
+---
+
+<nav>
+	<a aria-current={pathname === "/" ? "page" : "false"} href="/"> Home </a>
+	<a aria-current={pathname === "/about/" ? "page" : "false"} href="/about/"> About </a>
+</nav>
