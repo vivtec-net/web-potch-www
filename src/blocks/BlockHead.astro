@@ -1,5 +1,5 @@
 ---
-const { title, description, image = "favicon.svg" } = Astro.props;
+const { title, description, image = "/favicon.svg" } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
