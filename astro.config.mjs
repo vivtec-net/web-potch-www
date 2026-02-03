@@ -8,7 +8,6 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 export default defineConfig({
 	site: "https://potch.org.za",
-	outDir: "../../Server/potch.org.za",
 	trailingSlash: "always",
 	integrations: [sitemap(), mdx()],
 });
